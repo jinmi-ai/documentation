@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "almond",
+  "theme": "palm",
   "name": "Jinmi AI",
   "colors": {
     "primary": "#049bb3"
@@ -15,7 +15,8 @@
       "type": "button",
       "label": "Get Started",
       "href": "https://portal.jinmi.ai/"
-    }
+    },
+    "links": []
   },
   "navigation": {
     "languages": [
@@ -183,5 +184,10 @@
         "language": "ja"
       }
     ]
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/jinmi-ai"
+    }
   }
 }
