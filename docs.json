@@ -1,0 +1,89 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "almond",
+  "name": "Jinmi AI",
+  "colors": {
+    "primary": "#049bb3"
+  },
+  "favicon": "https://media.brand.dev/ed315e41-9354-4824-86d3-621608520139.png",
+  "logo": {
+    "light": "https://media.brand.dev/b66a2530-4dbc-4634-9360-01883ff905a5.png",
+    "dark": "https://media.brand.dev/b66a2530-4dbc-4634-9360-01883ff905a5.png"
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Get Started",
+      "href": "https://portal.jinmi.ai/"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "getting-started/quickstart",
+              "getting-started/pricing"
+            ]
+          },
+          {
+            "group": "Content Hub",
+            "pages": [
+              "content-hub/overview",
+              "content-hub/text-content",
+              "content-hub/media-creation",
+              "content-hub/content-refinement",
+              "content-hub/quality-assurance",
+              "content-hub/management"
+            ]
+          },
+          {
+            "group": "Omnichannel",
+            "pages": [
+              "omnichannel/overview",
+              "omnichannel/inbox",
+              "omnichannel/ai-chatbot",
+              "omnichannel/automations",
+              "omnichannel/analytics",
+              "omnichannel/integrations"
+            ]
+          },
+          {
+            "group": "Platform",
+            "pages": [
+              "platform/ecosystem",
+              "platform/free-tools",
+              "platform/faq"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Resources",
+        "groups": [
+          {
+            "group": "Customer Stories",
+            "pages": [
+              "resources/customer-stories/luna-boutique",
+              "resources/customer-stories/juni-care",
+              "resources/customer-stories/cosmetics-shop",
+              "resources/customer-stories/sales-team-breakthrough",
+              "resources/customer-stories/content-hub-breakthrough"
+            ]
+          },
+          {
+            "group": "Research & Insights",
+            "pages": [
+              "resources/research/shaping-sales-with-ai",
+              "resources/research/smarter-chatbots"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

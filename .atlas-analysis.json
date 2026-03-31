@@ -1,0 +1,102 @@
+{
+  "projectType": "saas",
+  "projectName": "Jinmi AI",
+  "projectDescription": "Jinmi AI is an intelligent commerce ecosystem that helps businesses and individual entrepreneurs automate sales, customer service, and content creation with AI.",
+  "theme": "almond",
+  "primaryColor": "#049bb3",
+  "lightColor": null,
+  "darkColor": null,
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "getting-started/quickstart",
+              "getting-started/pricing"
+            ]
+          },
+          {
+            "group": "Content Hub",
+            "pages": [
+              "content-hub/overview",
+              "content-hub/text-content",
+              "content-hub/media-creation",
+              "content-hub/content-refinement",
+              "content-hub/quality-assurance",
+              "content-hub/management"
+            ]
+          },
+          {
+            "group": "Omnichannel",
+            "pages": [
+              "omnichannel/overview",
+              "omnichannel/inbox",
+              "omnichannel/ai-chatbot",
+              "omnichannel/automations",
+              "omnichannel/analytics",
+              "omnichannel/integrations"
+            ]
+          },
+          {
+            "group": "Platform",
+            "pages": [
+              "platform/ecosystem",
+              "platform/free-tools",
+              "platform/faq"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Resources",
+        "groups": [
+          {
+            "group": "Customer Stories",
+            "pages": [
+              "resources/customer-stories/luna-boutique",
+              "resources/customer-stories/juni-care",
+              "resources/customer-stories/cosmetics-shop",
+              "resources/customer-stories/sales-team-breakthrough",
+              "resources/customer-stories/content-hub-breakthrough"
+            ]
+          },
+          {
+            "group": "Research & Insights",
+            "pages": [
+              "resources/research/shaping-sales-with-ai",
+              "resources/research/smarter-chatbots"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "AI-powered content creation (blogs, images, videos, scripts) with Jinmi Content Hub",
+    "Unified omnichannel inbox for Facebook, Zalo, Website, Email, and Telegram",
+    "24/7 AI chatbot for automated customer consultation and sales closing",
+    "Marketing automations and remarketing campaigns",
+    "Analytics & reporting for agent performance and channel comparison",
+    "AI CRM for 360° customer data and personalized campaigns",
+    "AI Call Center for large-scale outbound and inbound call automation",
+    "Multi-channel e-commerce and inventory management",
+    "Free tools: Lead Generation, Fashion Studio AI, Pricing Calculator, Landing Page Generator"
+  ],
+  "publicApiSurface": [
+    "Jinmi Content Hub – text, image, video, and audio content generation",
+    "Jinmi Omnichannel – omnichannel inbox, AI chatbot, automations, analytics",
+    "Jinmi CRM – customer data management and segmentation",
+    "Jinmi AI Call Center – outbound/inbound call automation",
+    "Jinmi Ecommerce – multi-channel product and order management",
+    "Jinmi Tingbee – payment verification system",
+    "Jinmi Gobox – fulfillment and warehouse management",
+    "Lead Generation Tool (free)",
+    "Fashion Studio AI (free)",
+    "E-commerce Pricing & Profit Calculator (free)",
+    "Free Landing Page Generator (free)"
+  ]
+}
