@@ -93,6 +93,9 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "tab": "API documentation"
                   }
                 ]
               }
@@ -110,7 +113,7 @@
                 "version": "v1.0",
                 "tabs": [
                   {
-                    "tab": "Documentation",
+                    "tab": "Tài liệu hướng dẫn sử dụng",
                     "groups": [
                       {
                         "group": "Get Started",
@@ -173,6 +176,9 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "tab": "Tài liệu API"
                   }
                 ]
               }
