@@ -15,13 +15,12 @@
       "type": "button",
       "label": "Get Started",
       "href": "https://portal.jinmi.ai/"
-    },
-    "links": []
+    }
   },
   "navigation": {
     "languages": [
       {
-        "language": "en",
+        "language": "es",
         "products": [
           {
             "product": "Jinmi AI",
@@ -93,9 +92,6 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "tab": "API documentation"
                   }
                 ]
               }
@@ -113,7 +109,7 @@
                 "version": "v1.0",
                 "tabs": [
                   {
-                    "tab": "Tài liệu hướng dẫn sử dụng",
+                    "tab": "Documentation",
                     "groups": [
                       {
                         "group": "Get Started",
@@ -176,9 +172,6 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "tab": "Tài liệu API"
                   }
                 ]
               }
@@ -190,10 +183,5 @@
         "language": "ja"
       }
     ]
-  },
-  "footer": {
-    "socials": {
-      "github": "https://github.com/jinmi-ai"
-    }
   }
 }
