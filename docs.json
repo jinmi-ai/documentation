@@ -18,68 +18,163 @@
     }
   },
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "Documentation",
-        "groups": [
+        "language": "es",
+        "products": [
           {
-            "group": "Get Started",
-            "pages": [
-              "introduction",
-              "getting-started/quickstart",
-              "getting-started/pricing"
-            ]
-          },
-          {
-            "group": "Content Hub",
-            "pages": [
-              "content-hub/overview",
-              "content-hub/text-content",
-              "content-hub/media-creation",
-              "content-hub/content-refinement",
-              "content-hub/quality-assurance",
-              "content-hub/management"
-            ]
-          },
-          {
-            "group": "Omnichannel",
-            "pages": [
-              "omnichannel/overview",
-              "omnichannel/inbox",
-              "omnichannel/ai-chatbot",
-              "omnichannel/automations",
-              "omnichannel/analytics",
-              "omnichannel/integrations"
-            ]
-          },
-          {
-            "group": "Platform",
-            "pages": [
-              "platform/ecosystem",
-              "platform/free-tools",
-              "platform/faq"
+            "product": "Jinmi AI",
+            "versions": [
+              {
+                "version": "v1.0",
+                "tabs": [
+                  {
+                    "tab": "Documentation",
+                    "groups": [
+                      {
+                        "group": "Get Started",
+                        "pages": [
+                          "introduction",
+                          "getting-started/quickstart",
+                          "getting-started/pricing"
+                        ]
+                      },
+                      {
+                        "group": "Content Hub",
+                        "pages": [
+                          "content-hub/overview",
+                          "content-hub/text-content",
+                          "content-hub/media-creation",
+                          "content-hub/content-refinement",
+                          "content-hub/quality-assurance",
+                          "content-hub/management"
+                        ]
+                      },
+                      {
+                        "group": "Omnichannel",
+                        "pages": [
+                          "omnichannel/overview",
+                          "omnichannel/inbox",
+                          "omnichannel/ai-chatbot",
+                          "omnichannel/automations",
+                          "omnichannel/analytics",
+                          "omnichannel/integrations"
+                        ]
+                      },
+                      {
+                        "group": "Platform",
+                        "pages": [
+                          "platform/ecosystem",
+                          "platform/free-tools",
+                          "platform/faq"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tab": "Resources",
+                    "groups": [
+                      {
+                        "group": "Customer Stories",
+                        "pages": [
+                          "resources/customer-stories/luna-boutique",
+                          "resources/customer-stories/juni-care",
+                          "resources/customer-stories/cosmetics-shop",
+                          "resources/customer-stories/sales-team-breakthrough",
+                          "resources/customer-stories/content-hub-breakthrough"
+                        ]
+                      },
+                      {
+                        "group": "Research & Insights",
+                        "pages": [
+                          "resources/research/shaping-sales-with-ai",
+                          "resources/research/smarter-chatbots"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
             ]
           }
         ]
       },
       {
-        "tab": "Resources",
-        "groups": [
+        "language": "vi",
+        "products": [
           {
-            "group": "Customer Stories",
-            "pages": [
-              "resources/customer-stories/luna-boutique",
-              "resources/customer-stories/juni-care",
-              "resources/customer-stories/cosmetics-shop",
-              "resources/customer-stories/sales-team-breakthrough",
-              "resources/customer-stories/content-hub-breakthrough"
-            ]
-          },
-          {
-            "group": "Research & Insights",
-            "pages": [
-              "resources/research/shaping-sales-with-ai",
-              "resources/research/smarter-chatbots"
+            "product": "Jinmi AI",
+            "versions": [
+              {
+                "version": "v1.0",
+                "tabs": [
+                  {
+                    "tab": "Documentation",
+                    "groups": [
+                      {
+                        "group": "Get Started",
+                        "pages": [
+                          "introduction-copied-1",
+                          "getting-started/quickstart-copied-1",
+                          "getting-started/pricing-copied-1"
+                        ]
+                      },
+                      {
+                        "group": "Content Hub",
+                        "pages": [
+                          "content-hub/overview-copied-1",
+                          "content-hub/text-content-copied-1",
+                          "content-hub/media-creation-copied-1",
+                          "content-hub/content-refinement-copied-1",
+                          "content-hub/quality-assurance-copied-1",
+                          "content-hub/management-copied-1"
+                        ]
+                      },
+                      {
+                        "group": "Omnichannel",
+                        "pages": [
+                          "omnichannel/overview-copied-1",
+                          "omnichannel/inbox-copied-1",
+                          "omnichannel/ai-chatbot-copied-1",
+                          "omnichannel/automations-copied-1",
+                          "omnichannel/analytics-copied-1",
+                          "omnichannel/integrations-copied-1"
+                        ]
+                      },
+                      {
+                        "group": "Platform",
+                        "pages": [
+                          "platform/ecosystem-copied-1",
+                          "platform/free-tools-copied-1",
+                          "platform/faq-copied-1"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tab": "Resources",
+                    "groups": [
+                      {
+                        "group": "Customer Stories",
+                        "pages": [
+                          "resources-copied-1/customer-stories/luna-boutique",
+                          "resources-copied-1/customer-stories/juni-care",
+                          "resources-copied-1/customer-stories/cosmetics-shop",
+                          "resources-copied-1/customer-stories/sales-team-breakthrough",
+                          "resources-copied-1/customer-stories/content-hub-breakthrough"
+                        ]
+                      },
+                      {
+                        "group": "Research & Insights",
+                        "pages": [
+                          "resources-copied-1/research/shaping-sales-with-ai",
+                          "resources-copied-1/research/smarter-chatbots"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
             ]
           }
         ]
