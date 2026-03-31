@@ -13,7 +13,7 @@
   "navbar": {
     "primary": {
       "type": "button",
-      "label": "Get Started",
+      "label": "Bắt đầu miễn phí",
       "href": "https://portal.jinmi.ai/"
     }
   },
@@ -183,5 +183,15 @@
         "language": "ja"
       }
     ]
-  }
+  },
+  "seo": {
+    "indexing": "all"
+  },
+  "metadata": {
+    "timestamp": true
+  },
+  "appearance": {
+    "default": "system"
+  },
+  "description": "Tài liệu hướng dẫn sử dụng hệ sinh thái JINMI AI"
 }
