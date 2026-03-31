@@ -20,7 +20,8 @@
   "navigation": {
     "languages": [
       {
-        "language": "es",
+        "language": "en",
+        "default": true,
         "products": [
           {
             "product": "Jinmi AI",
