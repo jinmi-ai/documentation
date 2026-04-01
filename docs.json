@@ -229,7 +229,7 @@
                       {
                         "group": "Get Started",
                         "pages": [
-                          "voice-agent-introduction"
+                          "jinmi-ai-voice-agent/user-guide/get-started/introduction"
                         ]
                       }
                     ]
@@ -298,7 +298,7 @@
                       {
                         "group": "はじめに",
                         "pages": [
-                          "voice-agent-introduction-ja"
+                          "jinmi-ai-voice-agent/user-guide-ja/get-started/introduction-ja"
                         ]
                       }
                     ]
