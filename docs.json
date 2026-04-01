@@ -187,7 +187,22 @@
         ]
       },
       {
-        "language": "ja"
+        "language": "ja",
+        "products": [
+          {
+            "product": "Jinmi AI",
+            "versions": [
+              {
+                "version": "v1.0",
+                "tabs": [
+                  {
+                    "tab": "API連携"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ]
   },
