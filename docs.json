@@ -35,20 +35,20 @@
                       {
                         "group": "Bắt đầu",
                         "pages": [
-                          "introduction-copied-1",
-                          "getting-started/quickstart-copied-1",
-                          "getting-started/pricing-copied-1"
+                          "bat-dau/chao-mung-den-voi-jinmi-ai",
+                          "bat-dau/bat-dau-nhanh",
+                          "bat-dau/bang-gia"
                         ]
                       },
                       {
                         "group": "Quản lý đa kênh",
                         "pages": [
-                          "omnichannel/overview-copied-1",
-                          "omnichannel/inbox-copied-1",
-                          "omnichannel/ai-chatbot-copied-1",
-                          "omnichannel/automations-copied-1",
-                          "omnichannel/analytics-copied-1",
-                          "omnichannel/integrations-copied-1"
+                          "quan-ly-da-kenh/tong-quan",
+                          "quan-ly-da-kenh/inbox-da-kenh",
+                          "quan-ly-da-kenh/ai-chatbot",
+                          "quan-ly-da-kenh/tu-dong-hoa",
+                          "quan-ly-da-kenh/analytics",
+                          "quan-ly-da-kenh/tich-hop-kenh"
                         ]
                       },
                       {
