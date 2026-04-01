@@ -15,7 +15,13 @@
       "type": "button",
       "label": "Bắt đầu miễn phí",
       "href": "https://portal.jinmi.ai/"
-    }
+    },
+    "links": [
+      {
+        "label": "Liên hệ",
+        "href": "https://www.facebook.com/JinmiAI.XRetail"
+      }
+    ]
   },
   "navigation": {
     "languages": [
