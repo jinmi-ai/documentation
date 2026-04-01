@@ -95,7 +95,10 @@
                     ]
                   },
                   {
-                    "tab": "Tích hợp API"
+                    "tab": "Tích hợp API",
+                    "pages": [
+                      "tong-quan"
+                    ]
                   }
                 ]
               }
