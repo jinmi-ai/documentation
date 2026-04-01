@@ -76,13 +76,13 @@
                     "tab": "Tài nguyên",
                     "groups": [
                       {
-                        "group": "Customer Stories",
+                        "group": "Câu chuyện khách hàng",
                         "pages": [
-                          "resources-copied-1/customer-stories/luna-boutique",
-                          "resources-copied-1/customer-stories/juni-care",
-                          "resources-copied-1/customer-stories/cosmetics-shop",
-                          "resources-copied-1/customer-stories/sales-team-breakthrough",
-                          "resources-copied-1/customer-stories/content-hub-breakthrough"
+                          "cau-chuyen-khach-hang/luna-boutique",
+                          "cau-chuyen-khach-hang/juni-care",
+                          "cau-chuyen-khach-hang/cosmetics-shop",
+                          "cau-chuyen-khach-hang/sales-team-breakthrough",
+                          "cau-chuyen-khach-hang/content-hub-breakthrough"
                         ]
                       },
                       {
