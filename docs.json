@@ -210,6 +210,12 @@
                           "resources-copied-2/customer-stories/sales-team-breakthrough",
                           "resources-copied-2/customer-stories/content-hub-breakthrough"
                         ]
+                      },
+                      {
+                        "group": "リサーチ＆インサイト",
+                        "pages": [
+                          "resources-copied-2/research/shaping-sales-with-ai"
+                        ]
                       }
                     ]
                   },
