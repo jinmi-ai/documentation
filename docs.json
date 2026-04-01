@@ -176,6 +176,9 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "tab": "API Integration"
                   }
                 ]
               }
