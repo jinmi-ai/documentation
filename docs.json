@@ -151,7 +151,7 @@
                 "tabs": [
                   {
                     "tab": "Documentation",
-                    "groups": [
+                    "pages": [
                       {
                         "group": "Get Started",
                         "pages": [
@@ -189,7 +189,8 @@
                           "platform/free-tools",
                           "platform/faq"
                         ]
-                      }
+                      },
+                      "hdsd-omni-channel-en"
                     ]
                   },
                   {
@@ -264,7 +265,7 @@
                 "tabs": [
                   {
                     "tab": "リソース",
-                    "groups": [
+                    "pages": [
                       {
                         "group": "お客様事例",
                         "pages": [
@@ -280,7 +281,8 @@
                         "pages": [
                           "resources-copied-2/research/shaping-sales-with-ai"
                         ]
-                      }
+                      },
+                      "hdsd-omni-channel-ja"
                     ]
                   },
                   {
