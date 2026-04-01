@@ -30,10 +30,10 @@
                 "version": "v1.0",
                 "tabs": [
                   {
-                    "tab": "Documentation",
+                    "tab": "Hướng dẫn sử dụng",
                     "groups": [
                       {
-                        "group": "Get Started",
+                        "group": "Bắt đầu",
                         "pages": [
                           "introduction-copied-1",
                           "getting-started/quickstart-copied-1",
@@ -41,7 +41,7 @@
                         ]
                       },
                       {
-                        "group": "Content Hub",
+                        "group": "Jinmi Content Hub",
                         "pages": [
                           "content-hub/overview-copied-1",
                           "content-hub/text-content-copied-1",
@@ -52,7 +52,7 @@
                         ]
                       },
                       {
-                        "group": "Omnichannel",
+                        "group": "Omnichannel & AI Sale Agent",
                         "pages": [
                           "omnichannel/overview-copied-1",
                           "omnichannel/inbox-copied-1",
@@ -73,7 +73,7 @@
                     ]
                   },
                   {
-                    "tab": "Resources",
+                    "tab": "Tài nguyên",
                     "groups": [
                       {
                         "group": "Customer Stories",
