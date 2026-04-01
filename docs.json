@@ -24,7 +24,7 @@
         "default": true,
         "products": [
           {
-            "product": "Jinmi AI",
+            "product": "Tổng quan về Jinmi AI",
             "versions": [
               {
                 "version": "v1.0",
@@ -98,6 +98,33 @@
                     "tab": "Tích hợp API",
                     "pages": [
                       "tong-quan"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "product": "HDSD Jinmi AI Voice Agent",
+            "versions": [
+              {
+                "version": "v1.0",
+                "tabs": [
+                  {
+                    "tab": "Hướng dẫn sử dụng",
+                    "groups": [
+                      {
+                        "group": "Bắt đầu",
+                        "pages": [
+                          "gioi-thieu"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tab": "Tài liệu API",
+                    "pages": [
+                      "tong-quan-1"
                     ]
                   }
                 ]
