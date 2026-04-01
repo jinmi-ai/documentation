@@ -137,7 +137,7 @@
         "language": "en",
         "products": [
           {
-            "product": "Jinmi AI",
+            "product": "Jinmi AI Overview",
             "versions": [
               {
                 "version": "v1.0",
@@ -216,6 +216,33 @@
                 ]
               }
             ]
+          },
+          {
+            "product": "Jinmi AI Voice Agent Guide",
+            "versions": [
+              {
+                "version": "v1.0",
+                "tabs": [
+                  {
+                    "tab": "User Guide",
+                    "groups": [
+                      {
+                        "group": "Get Started",
+                        "pages": [
+                          "voice-agent-introduction"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tab": "API Documentation",
+                    "pages": [
+                      "voice-agent-overview"
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -223,7 +250,7 @@
         "language": "ja",
         "products": [
           {
-            "product": "Jinmi AI",
+            "product": "Jinmi AI 概要",
             "versions": [
               {
                 "version": "v1.0",
@@ -253,6 +280,33 @@
                     "tab": "API連携",
                     "pages": [
                       "api-overview-ja"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "product": "Jinmi AI Voice Agent ガイド",
+            "versions": [
+              {
+                "version": "v1.0",
+                "tabs": [
+                  {
+                    "tab": "ご利用ガイド",
+                    "groups": [
+                      {
+                        "group": "はじめに",
+                        "pages": [
+                          "voice-agent-introduction-ja"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tab": "APIドキュメント",
+                    "pages": [
+                      "voice-agent-overview-ja"
                     ]
                   }
                 ]
