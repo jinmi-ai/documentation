@@ -181,7 +181,10 @@
                     ]
                   },
                   {
-                    "tab": "API Integration"
+                    "tab": "API Integration",
+                    "pages": [
+                      "api-overview"
+                    ]
                   }
                 ]
               }
@@ -214,7 +217,10 @@
                     ]
                   },
                   {
-                    "tab": "API連携"
+                    "tab": "API連携",
+                    "pages": [
+                      "api-overview-ja"
+                    ]
                   }
                 ]
               }
