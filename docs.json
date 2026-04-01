@@ -41,17 +41,6 @@
                         ]
                       },
                       {
-                        "group": "Jinmi Content Hub",
-                        "pages": [
-                          "content-hub/overview-copied-1",
-                          "content-hub/text-content-copied-1",
-                          "content-hub/media-creation-copied-1",
-                          "content-hub/content-refinement-copied-1",
-                          "content-hub/quality-assurance-copied-1",
-                          "content-hub/management-copied-1"
-                        ]
-                      },
-                      {
                         "group": "Quản lý đa kênh",
                         "pages": [
                           "omnichannel/overview-copied-1",
@@ -60,6 +49,17 @@
                           "omnichannel/automations-copied-1",
                           "omnichannel/analytics-copied-1",
                           "omnichannel/integrations-copied-1"
+                        ]
+                      },
+                      {
+                        "group": "Jinmi Content Hub",
+                        "pages": [
+                          "content-hub/overview-copied-1",
+                          "content-hub/text-content-copied-1",
+                          "content-hub/media-creation-copied-1",
+                          "content-hub/content-refinement-copied-1",
+                          "content-hub/quality-assurance-copied-1",
+                          "content-hub/management-copied-1"
                         ]
                       },
                       {
