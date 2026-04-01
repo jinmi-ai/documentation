@@ -37,7 +37,7 @@
                 "tabs": [
                   {
                     "tab": "Tài liệu",
-                    "groups": [
+                    "pages": [
                       {
                         "group": "Bắt đầu",
                         "pages": [
@@ -75,7 +75,8 @@
                           "platform/free-tools-copied-1",
                           "platform/faq-copied-1"
                         ]
-                      }
+                      },
+                      "hdsd-omni-channel"
                     ]
                   },
                   {

@@ -1,0 +1,183 @@
+---
+title: "HDSD Omni Channel"
+---
+
+# **HDSD MODULE CHATBOT - JINMI OMNICHANNEL **
+
+## **Phần 1: ĐĂNG KÝ/ĐĂNG NHẬP TÀI KHOẢN**
+
+### **1. Đăng ký tài khoản**
+
+Bước 1: Tại màn hình đăng ký → chọn **_Tiếp tục với Google_**
+
+Bước 2: Đăng nhập tài khoản Google
+
+Bước 3: Thiết lập thông tin cửa hàng  → Nhấn **_Tiếp tục_**_ _
+
+Vậy là bạn đã hoàn tất đăng ký vào vào Jinmi Omnichannel  
+
+### **2. Đăng nhập**
+
+Có 2 cách đăng nhập vào trang Omni
+
+- <u>Cách 1: Đăng nhập bằng tài khoản</u>
+
+Bước 1: Truy cập vào link: [<u>Jinmi Portal</u>](https://portal.jinmi.ai/auth?return_url=https%3A%2F%2Fportal.jinmi.ai%2Fapi%2Foauth%2Fauthorize%3Fclient_id%3Domnichannel_client_id%26redirect_uri%3Dhttps%253A%252F%252Fomni.jinmi.ai%252Fportal%252Fsso%252Fcallback%26response_type%3Dcode%26scope%3Dopenid%2Bprofile%2Bemail%26state%3DLw%253D%253D)
+
+Bước 2: Nhập Email đã đăng ký và mật khẩu hợp lệ sau đó ấn “Đăng nhập”
+
+\
+
+- <u>Cách 2: Đăng nhập bằng Google</u>
+
+Bước 1: Tại màn hình Đăng nhập, nhấn chọn “Đăng nhập với Google”
+
+Bước 2: Chọn tài khoản mà bạn muốn đăng nhập
+
+Vậy là bạn đã đăng nhập thành công vào hệ thống Jinmi Omnichannel. 
+
+## **Phần 2: KẾT NỐI LINE VÀO OMNICHANNEL**
+
+### **1. Tạo tài khoản LINE Official Account**
+
+Bước 1: Chọn **_Create a LINE Official Account_**
+
+Bước 2: Nhập thông tin → Chọn **_Continue_**
+
+Bước 3: Kiểm tra lại thông tin → Chọn **_Submit_**
+
+Bước 4: Khi hiển thị **_Application Complete_** → chọn **_Go to LINE Official Account Manager_**
+
+### **2. Kích hoạt Messaging API**
+
+Bước 1: Lúc này màn hình chính hiện Welcome =\> chọn **_Next_** =\> Tiếp tục chọn **_Home Screen_** để vào trang chủ.
+
+Bước 2: Chọn **_Settings_** → Chọn **_Messaging API_**
+
+Bước 3: Nhấn **_Enable Messaging API_**
+
+Bước 3: Nhập **_Account Name_**_ _→ Chọn **_Agree_**
+
+Bước 4: Nhập các thông tin cần thiết →  Chọn **_OK_** 
+
+### **3. Lấy thông tin kết nối**
+
+Bước 1: Truy cập **_LINE Developers Console_**
+
+Bước 2: Tại màn hình **_Provider_ **chọn kênh kết nối
+
+Bước 3: Tại màn hình Kênh kết nối chọn **_Messaging API_**
+
+Bước 3: Sau đó kéo xuống dưới và chọn**_ Issue_**
+
+### **4. Kết nối LINE vào Jinmi**
+
+Bước 1: Truy cập vào**_ Jinmi Omnichannel_ → **Chọn** _Settings_ → _Inboxes_**
+
+Bước 2: Chọn **Add Inbox**
+
+**Bước 3: **Chọn **_LINE_** và nhập thông tin kênh
+
+Quay lại màn hình** _LINE_ ** **→ ** Copy từng nội dung: **_Channel ID, Channel Secret, Token_** để nhập thông tin kênh (LINE Channel ID, LINE Channel Secret, LINE Channel Token)
+
+Bước 3: Chọn **_Create LINE Channel_**
+
+Bước 4: Thêm **_Agents _**(nhân viên) **→** Chọn**_ Add Agents_**
+
+Bước 5: Copy **_Webhook URL_** từ hệ thống Jinmi
+
+Bước 6: Quay lại LINE →  Dán**_ Webhook URL_** → Chọn**_ Save_**
+
+Bước 7: Tại**_ Settings_** → Chọn **_Response settings_** →  Bật **_Chat, Webhook_**
+
+Bước 8: Lúc này LINE đã kết nối thành công. Quay lại Omnichannel → chọn **_More Settings _**
+
+Nhu vậy, bạn đã hoàn tất gắn LINE vào Omnichannel và có thể sử dụng. Tại đây nhân viên có thể chat với khách hàng qua LINE. 
+
+**PHẦN 3: HƯỚNG DẪN CÁCH TẠO VÀ ĐÀO TẠO CHATBOT AI**
+
+### **1: Tạo chatbot**
+
+Bước 1: Vào **_Jinmi Agent _→ **Chọn **_Create a New Assistant_**
+
+Bước 2: Nhập các thông tin: 
+
+1. Nhập tên chatbot (_VD:Chatbot hỗ trợ tư vấn sản phẩm, trả lời câu hỏi thường gặp và hỗ trợ khách hàng 24/7_) 
+2. Mô tả vai trò của chatbot 
+3. Sản phẩm chính (_VD: Jinmi chatbot AI_)
+4. Các tính năng tùy thuộc vào nhu cầu để chọn tính năng cho bot phù hợp
+5. Thiết lập thời gian gửi tin nhắn giải quyết
+6. Bấm **_Create_**
+
+### **2. Đào tạo chatbot**
+
+- Tạo FAQS: danh sách câu hỏi thường gặp và câu trả lời sẵn.
+
+Chatbot sẽ dùng các câu hỏi – trả lời này để trả lời tự động cho khách hàng, tiết kiệm thời gian cho nhân viên
+
+Bước 1: Sau khi tạo xong chatbot =\> bấm **_FAQS_ **=\> bấm **_Tạo FAQ mới_**
+
+Bước 2: Thêm FAQ: 
+
+1. Nhập câu hỏi mà khách hàng hay hỏi (_VD: Sản phẩm này có bảo hành không?_)
+2. Nhập câu trả lời
+3. Chọn chatbot cần sử dụng câu hỏi này
+4. Thêm hình ảnh (nếu có)
+5. Bấm **_Create_**
+
+- Gắn tài liệu vào Chatbot 
+
+Tài liệu Jinmi là nơi lưu thông tin, bài viết và hướng dẫn để chatbot đọc và học.
+
+Chatbot sẽ dựa vào tài liệu này để trả lời khách hàng chính xác hơn.
+
+Bước 1: Tại **_Jinmi Agent _**=\> Chọn **_Documents_**
+
+\
+
+Bước 2: Chọn **_Create a new document_**
+
+Bước 3: Nhập thông tin
+
+1. Nhập tên tài liệu (_VD: Hướng dẫn sử dụng Omni_)
+2. Chọn loại tài liệu 
+3. Dán Link tài liệu 
+4. Chọn chatbot
+5. Bấm **_Lưu_**
+
+### **3. Gắn chatbot vào kênh**
+
+Bước 1: Chọn **_Jinmi Agent _→ **_ _Tại Chatbot bạn muốn kết nối vào LINE, nhấn vào biểu tượng (...) **→ **Chọn** _Connect Inbox_**
+
+Bước 2: Chọn **_Connect a new inbox_**
+
+Bước 3: Chọn kênh bạn muốn kết nối (Facebook/Zalo/Website/WhatsApp/Instagram…)
+
+Bước 4: Bấm **_Create _**để hoàn tất kết nối hộp thư
+
+Lúc này, chatbot đã có thể:
+
+- Tự động trả lời khách hàng
+- Hiểu nội dung theo tài liệu
+- Hỗ trợ đa ngôn ngữ
+
+**Lưu ý:** Bạn chỉ cần tạo tài liệu cho chatbot bằng 1 ngôn ngữ. Khi khách nhắn tin bằng ngôn ngữ khác, chatbot vẫn tự hiểu và trả lời lại đúng theo ngôn ngữ của khách.
+
+**4. Kiểm tra hoạt động**
+
+- Cách 1: Test chatbot trực tiếp trên Jinmi Omnichannel
+
+Bước 1: Vào **_Jinmi Agents_ → **Tại Chatbot bạn muốn kiểm tra, nhấn vào biểu tượng **(...) → **Chọn **_Edit Assistant  _**
+
+\
+**	**Bước 2: Chọn **_Playground _→ **Nhập tin nhắn để kiểm tra câu trả lời của Chatbot
+
+- Cách 2: Chat thử với vai trò là khách hàng : Dùng tài khoản cá nhân → nhắn tin vào page/LINE của bạn
+
+Bạn sẽ thấy chatbot tự động phản hồi theo nội dung đã đào tạo. Nếu bot chưa trả lời đúng, bạn có thể bổ sung thêm FAQ hoặc tài liệu.
+
+**PHẦN 4: KẾT LUẬN**
+
+Như vậy, bạn đã hoàn tất việc tạo, đào tạo và triển khai chatbot trên Jinmi Omnichannel.
+
+Chatbot sẽ hỗ trợ tự động tư vấn và phản hồi khách hàng, giúp bạn tiết kiệm thời gian và tối ưu hiệu quả chăm sóc khách hàng.
