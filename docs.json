@@ -196,6 +196,21 @@
                 "version": "v1.0",
                 "tabs": [
                   {
+                    "tab": "リソース",
+                    "groups": [
+                      {
+                        "group": "お客様事例",
+                        "pages": [
+                          "resources-copied-2/customer-stories/luna-boutique",
+                          "resources-copied-2/customer-stories/juni-care",
+                          "resources-copied-2/customer-stories/cosmetics-shop",
+                          "resources-copied-2/customer-stories/sales-team-breakthrough",
+                          "resources-copied-2/customer-stories/content-hub-breakthrough"
+                        ]
+                      }
+                    ]
+                  },
+                  {
                     "tab": "API連携"
                   }
                 ]
