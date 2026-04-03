@@ -262,6 +262,25 @@
                 "version": "v1.0",
                 "tabs": [
                   {
+                    "tab": "ドキュメント",
+                    "pages": [
+                      {
+                        "group": "はじめに",
+                        "pages": [
+                          "introduction-ja",
+                          "getting-started/quickstart-ja",
+                          "getting-started/pricing-ja"
+                        ]
+                      },
+                      {
+                        "group": "オムニチャネル",
+                        "pages": [
+                          "omnichannel/ai-chatbot-ja"
+                        ]
+                      }
+                    ]
+                  },
+                  {
                     "tab": "リソース",
                     "pages": [
                       {
