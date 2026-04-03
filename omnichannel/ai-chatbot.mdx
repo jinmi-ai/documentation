@@ -58,14 +58,50 @@ When a customer's question is too complex for the chatbot, or when they specific
 
 <Steps>
   <Step title="Create a chatbot">
-    In your Omnichannel dashboard, go to **Settings** → **AI Chatbot** and click **Create chatbot**. Give it a name and choose which inboxes it will be active on.
+    Step 1: In your Omnichannel dashboard, select **_Chatbot Management_** → Select **_Create New Chatbot_**
+
+    Step 2: Enter the following information:
+
+    1. Enter the chatbot name (_Example: Chatbot for product consultation, answering FAQs, and 24/7 customer support_)
+    2. Describe the chatbot's role
+    3. Main product (_Example: Jinmi chatbot AI_)
+    4. Select features based on your needs to choose the appropriate bot capabilities
+    5. Set the resolution message timing
+    6. Click **_Create_**
   </Step>
-  <Step title="Upload training files">
-    Click **Training Files** and upload your product catalogue, FAQ document, sales scripts, or any other reference material. The more detailed and accurate your training files, the better the chatbot performs.
+  <Step title="Create FAQs">
+    The chatbot will use these question-answer pairs to automatically respond to customers, saving time for your staff.
+
+    Step 1: After creating the chatbot → Select **_FAQs_** → Select **_Create New FAQs_**
+
+    Step 2: Add FAQs:
+
+    1. Enter a question that customers frequently ask (_Example: Does this product have a warranty?_)
+    2. Enter the answer
+    3. Select the chatbot that will use this question
+    4. Add images (if applicable)
+    5. Click **_Create_**
 
     <Tip>
       Start with your most common customer questions. Review your past conversations and identify the top 20 questions your team answers repeatedly — these are your first training priorities.
     </Tip>
+  </Step>
+  <Step title="Attach documents to the chatbot" stepNumber={3}>
+    Jinmi Documents is where you store information, articles, and guides for the chatbot to read and learn from.
+
+    The chatbot will rely on these documents to answer customers more accurately.
+
+    Step 1: In **_Chatbot Management_** → Select **_Documents_**
+
+    Step 2: Select **_Create New Document_**
+
+    Step 3: Enter the information
+
+    1. Enter the document name (_Example: Omni User Guide_)
+    2. Select the document type
+    3. Paste the document link
+    4. Select the chatbot
+    5. Click **_Save_**
   </Step>
   <Step title="Configure responses and scripts">
     Use the **Scripts** editor to define structured conversation flows for specific scenarios — for example, a booking flow or a product finder. Set a fallback message for when the chatbot can't answer a question, and configure when to hand off to a human agent.
@@ -73,8 +109,28 @@ When a customer's question is too complex for the chatbot, or when they specific
   <Step title="Set handoff rules">
     Define the conditions under which the chatbot transfers a conversation to your team — for example, when a customer uses certain keywords, asks for a human, or the chatbot's confidence level falls below a threshold.
   </Step>
+  <Step title="Connect the chatbot to a channel">
+    Step 1: In your Omnichannel dashboard, select **_Chatbot Management_** → Click on the **_Inbox_** section
+
+    Step 2: Select **_Connect New Inbox_**
+
+    Step 3: Choose the channel you want to connect (Facebook/Zalo/Website/WhatsApp/Instagram...)
+
+    Step 4: Click **_Create_** to complete the inbox connection
+  </Step>
   <Step title="Test your chatbot">
     Use the built-in test console to simulate customer conversations. Check that the chatbot responds correctly to common questions and that handoffs to agents work as expected.
+
+    There are 2 ways to test your chatbot:
+
+    **_Method 1_**_: **Test the chatbot directly on Jinmi Omnichannel**_
+
+    Step 1: Select **_Chatbot Management_** → On the chatbot you want to test, click the **(...) icon** → Select **_Edit Chatbot_**\
+    Step 2: Select **_Try It_** → Enter a message to check the chatbot's response
+
+    **_Method 2: Chat as a customer_**
+
+    Use a personal account → send a message to your channel. You'll see the chatbot automatically respond based on the content it was trained on. If the chatbot isn't responding correctly, you can add more FAQs or documents.
   </Step>
   <Step title="Go live">
     Activate the chatbot on your selected inboxes. It will begin responding to new customer messages immediately.
@@ -96,12 +152,15 @@ When a customer's question is too complex for the chatbot, or when they specific
   <Accordion title="Can the chatbot answer every customer question?">
     The chatbot answers questions based on the training files and scripts you provide. Questions outside the scope of your training material will trigger the fallback message and, if configured, a handoff to a human agent. The more complete your training files, the wider the chatbot's coverage.
   </Accordion>
+
   <Accordion title="Are there limits on script length or number?">
     Script limits depend on your pricing plan. The Free plan includes 3 training files, Basic includes 5, Advanced includes 15, Professional includes 30, and Enterprise has no limit.
   </Accordion>
+
   <Accordion title="Can the chatbot process orders and payments?">
     The chatbot can collect order information and guide customers through a purchase flow. Integration with payment processing depends on your setup. Contact the Jinmi team to discuss your specific requirements.
   </Accordion>
+
   <Accordion title="Does the chatbot support sales scripts?">
     Yes. You can upload custom sales scripts and define structured conversation flows. The chatbot follows these scripts to qualify leads, upsell products, or guide customers through a booking process.
   </Accordion>
