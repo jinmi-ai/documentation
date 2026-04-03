@@ -1,5 +1,5 @@
 ---
-title: "AI chatbot"
+title: "AI chatbot "
 description: "Tự động hóa quy trình tư vấn và chốt đơn 24/7 với AI chatbot thông minh."
 ---
 
@@ -58,14 +58,50 @@ Khi gặp phải câu hỏi quá phức tạp vượt quá khả năng của cha
 
 <Steps>
   <Step title="Tạo chatbot">
-    Tại bảng điều khiển Omnichannel, vào mục **Settings** → **AI Chatbot** và chọn **Create chatbot**. Đặt tên và chọn inbox mà chatbot sẽ hoạt động.
+    Bước 1: Tại bảng điều khiển Omnichannel, chọn **\_Quản lý Chatbot \_**→ Chọn **_Tạo Chatbot mới_**
+
+    Bước 2: Nhập các thông tin: 
+
+    1. Nhập tên chatbot (_Ví dụ: Chatbot hỗ trợ tư vấn sản phẩm, trả lời câu hỏi thường gặp và hỗ trợ khách hàng 24/7_) 
+    2. Mô tả vai trò của chatbot 
+    3. Sản phẩm chính (_Ví dụ: Jinmi chatbot AI_)
+    4. Các tính năng tùy thuộc vào nhu cầu để chọn tính năng cho bot phù hợp
+    5. Thiết lập thời gian gửi tin nhắn giải quyết
+    6. Bấm **_Tạo_**
   </Step>
-  <Step title="Tải lên Training files">
-    Nhấp vào **Training Files** và tải lên danh mục sản phẩm, tài liệu FAQ, kịch bản bán hàng hoặc bất kỳ tài liệu tham khảo nào khác. Tài liệu càng chi tiết và chính xác, chatbot hoạt động càng hiệu quả.
+  <Step title="Tạo FAQs">
+    Chatbot sẽ dùng các câu hỏi – trả lời này để trả lời tự động cho khách hàng, tiết kiệm thời gian cho nhân viên
+
+    Bước 1: Sau khi tạo xong chatbot → Chọn \*\*_FAQs_ \*\*→ Chọn **_Tạo FAQs mới_**
+
+    Bước 2: Thêm FAQs: 
+
+    1. Nhập câu hỏi mà khách hàng hay hỏi (_Ví dụ: Sản phẩm này có bảo hành không?_)
+    2. Nhập câu trả lời
+    3. Chọn chatbot cần sử dụng câu hỏi này
+    4. Thêm hình ảnh (nếu có)
+    5. Bấm **_Tạo_**
 
     <Tip>
       Hãy bắt đầu với những câu hỏi thường gặp nhất. Rà soát lại lịch sử trò chuyện và liệt kê ra 20 câu hỏi mà nhân viên của bạn phải trả lời đi trả lời lại nhiều nhất — đây chính là ưu tiên huấn luyện hàng đầu.
     </Tip>
+  </Step>
+  <Step title="Gắn tài liệu vào Chatbot" stepNumber={3}>
+    Tài liệu Jinmi là nơi lưu thông tin, bài viết và hướng dẫn để chatbot đọc và học.
+
+    Chatbot sẽ dựa vào tài liệu này để trả lời khách hàng chính xác hơn.
+
+    Bước 1: Tại **\_Quản lý Chatbot \_**→ Chọn **_Tài liệu_**
+
+    Bước 2: Chọn **_Tạo tài liệu mới_**
+
+    Bước 3: Nhập thông tin
+
+    1. Nhập tên tài liệu (_VD: Hướng dẫn sử dụng Omni_)
+    2. Chọn loại tài liệu 
+    3. Dán Link tài liệu 
+    4. Chọn chatbot
+    5. Bấm **_Lưu_**
   </Step>
   <Step title="Cấu hình phản hồi và Scripts">
     Sử dụng trình chỉnh sửa **Scripts** để định nghĩa các luồng hội thoại cho các tình huống cụ thể — ví dụ: luồng đặt lịch hoặc luồng tìm kiếm sản phẩm. Thiết lập tin nhắn phản hồi mặc định (fallback message) khi chatbot không thể trả lời, và cấu hình thời điểm chuyển giao cho nhân viên.
@@ -73,8 +109,28 @@ Khi gặp phải câu hỏi quá phức tạp vượt quá khả năng của cha
   <Step title="Thiết lập quy tắc chuyển giao (Handoff)">
     Xác định các điều kiện để chatbot chuyển cuộc trò chuyện cho nhân viên — ví dụ: khi khách hàng sử dụng từ khóa nhất định, yêu cầu gặp người thật, hoặc khi mức độ tin cậy của chatbot xuống thấp dưới ngưỡng cho phép.
   </Step>
-  <Step title="Chạy thử chatbot">
+  <Step title="Gắn Chatbot vào kênh ">
+    Bước 1: Tại bảng điều khiển Omnichannel, chọn **\_Quản lý Chatbot \_**→\_ _Bấm vào mục_ **Hộp thư**\_
+
+    Bước 2: Chọn **_Kết nối hộp thư đến mới_**
+
+    Bước 3: Chọn kênh bạn muốn kết nối (Facebook/Zalo/Website/WhatsApp/Instagram…)
+
+    Bước 4: Bấm **\_Tạo \_**để hoàn tất kết nối hộp thư
+  </Step>
+  <Step title="Chạy thử Chatbot">
     Sử dụng bảng điều khiển thử nghiệm tích hợp để giả lập trò chuyện với khách hàng. Kiểm tra xem chatbot trả lời các câu hỏi thường gặp đã chuẩn chưa và quy trình chuyển giao cho nhân viên có mượt mà không.
+
+    Có 2 cách để chạy thử Chatbot: 
+
+    **_Cách 1_**_: **Test chatbot trực tiếp trên Jinmi Omnichannel**_
+
+    Bước 1: Chọn \*\*\_Quản lý Chatbot \_→ \*\*Tại Chatbot bạn muốn kiểm tra, nhấn vào biểu tượng \*\*(...) → \*\*Chọn **_Sửa Chatbot_**\
+    \*\*	\*\*Bước 2: Chọn \*\*\_Dùng thử \_→ \*\*Nhập tin nhắn để kiểm tra câu trả lời của Chatbot
+
+    **_Cách 2: Chat thử với vai trò là khách hàng_**
+
+    Dùng tài khoản cá nhân → nhắn tin vào kênh của bạn. Bạn sẽ thấy chatbot tự động phản hồi theo nội dung đã đào tạo. Nếu chatbot chưa trả lời đúng, bạn có thể bổ sung thêm FAQ hoặc tài liệu.
   </Step>
   <Step title="Kích hoạt">
     Bật chatbot trên các inbox đã chọn. Hệ thống sẽ bắt đầu tự động phản hồi các tin nhắn mới của khách hàng ngay lập tức.
@@ -96,12 +152,15 @@ Khi gặp phải câu hỏi quá phức tạp vượt quá khả năng của cha
   <Accordion title="Chatbot có thể trả lời mọi câu hỏi của khách hàng không?">
     Chatbot trả lời dựa trên Training files và Scripts mà bạn cung cấp. Những câu hỏi nằm ngoài phạm vi dữ liệu sẽ kích hoạt tin nhắn phản hồi mặc định và chuyển giao cho nhân viên (nếu có cấu hình). Tài liệu huấn luyện càng đầy đủ, tỷ lệ bao phủ của chatbot càng cao.
   </Accordion>
+
   <Accordion title="Có giới hạn về độ dài hoặc số lượng Script không?">
     Giới hạn Script phụ thuộc vào gói dịch vụ bạn đăng ký. Gói Free gồm 3 Training files, Basic là 5, Advanced là 15, Professional là 30 và Enterprise thì không giới hạn.
   </Accordion>
+
   <Accordion title="Chatbot có thể xử lý đơn hàng và thanh toán không?">
     Chatbot có thể thu thập thông tin đơn hàng và dẫn dắt khách hàng qua luồng mua sắm. Việc tích hợp xử lý thanh toán sẽ tùy thuộc vào thiết lập cụ thể của bạn. Hãy liên hệ với đội ngũ Jinmi để thảo luận về nhu cầu riêng biệt này.
   </Accordion>
+
   <Accordion title="Chatbot có hỗ trợ kịch bản bán hàng (sales scripts) không?">
     Có. Bạn có thể tải lên các kịch bản bán hàng tùy chỉnh và định nghĩa các luồng hội thoại có cấu trúc. Chatbot sẽ bám sát kịch bản này để lọc khách tiềm năng, gợi ý bán thêm (upsell) hoặc hướng dẫn khách đặt lịch.
   </Accordion>
