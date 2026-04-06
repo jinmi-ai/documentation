@@ -193,7 +193,12 @@
                           "platform/free-tools",
                           "platform/faq"
                         ]
-                      }
+                      },
+                      {
+                        "group": "Untitled Group",
+                        "pages": []
+                      },
+                      "usage-guide"
                     ]
                   },
                   {
@@ -306,7 +311,12 @@
                           "platform/free-tools-ja",
                           "platform/faq-ja"
                         ]
-                      }
+                      },
+                      {
+                        "group": "無題のグループ",
+                        "pages": []
+                      },
+                      "usage-guide-ja"
                     ]
                   },
                   {
