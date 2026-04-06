@@ -161,7 +161,8 @@
                         "pages": [
                           "introduction",
                           "getting-started/quickstart",
-                          "getting-started/pricing"
+                          "getting-started/pricing",
+                          "usage-guide"
                         ]
                       },
                       {
@@ -193,6 +194,10 @@
                           "platform/free-tools",
                           "platform/faq"
                         ]
+                      },
+                      {
+                        "group": "Untitled Group",
+                        "pages": []
                       }
                     ]
                   },
@@ -274,7 +279,8 @@
                         "pages": [
                           "introduction-ja",
                           "getting-started/quickstart-ja",
-                          "getting-started/pricing-ja"
+                          "getting-started/pricing-ja",
+                          "usage-guide-ja"
                         ]
                       },
                       {
@@ -306,6 +312,10 @@
                           "platform/free-tools-ja",
                           "platform/faq-ja"
                         ]
+                      },
+                      {
+                        "group": "Untitled Group",
+                        "pages": []
                       }
                     ]
                   },
