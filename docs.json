@@ -273,9 +273,33 @@
                         ]
                       },
                       {
+                        "group": "コンテンツハブ",
+                        "pages": [
+                          "content-hub/overview-ja",
+                          "content-hub/text-content-ja",
+                          "content-hub/media-creation-ja",
+                          "content-hub/content-refinement-ja",
+                          "content-hub/quality-assurance-ja",
+                          "content-hub/management-ja"
+                        ]
+                      },
+                      {
                         "group": "オムニチャネル",
                         "pages": [
-                          "omnichannel/ai-chatbot-ja"
+                          "omnichannel/overview-ja",
+                          "omnichannel/inbox-ja",
+                          "omnichannel/ai-chatbot-ja",
+                          "omnichannel/automations-ja",
+                          "omnichannel/analytics-ja",
+                          "omnichannel/integrations-ja"
+                        ]
+                      },
+                      {
+                        "group": "プラットフォーム",
+                        "pages": [
+                          "platform/ecosystem-ja",
+                          "platform/free-tools-ja",
+                          "platform/faq-ja"
                         ]
                       }
                     ]
@@ -296,7 +320,8 @@
                       {
                         "group": "リサーチ＆インサイト",
                         "pages": [
-                          "resources-copied-2/research/shaping-sales-with-ai"
+                          "resources-copied-2/research/shaping-sales-with-ai",
+                          "resources-copied-2/research/smarter-chatbots"
                         ]
                       }
                     ]
