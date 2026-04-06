@@ -75,7 +75,12 @@
                           "platform/free-tools-copied-1",
                           "platform/faq-copied-1"
                         ]
-                      }
+                      },
+                      {
+                        "group": "Untitled Group",
+                        "pages": []
+                      },
+                      "huong-dan-su-dung"
                     ]
                   },
                   {
