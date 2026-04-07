@@ -1,0 +1,61 @@
+---
+title: "LINEの統合方法"
+---
+
+### **1. LINE公式アカウントを作成**
+
+ステップ1：**_Create a LINE Official Account_** を選択
+
+ステップ2：情報を入力 → **_Continue_** を選択
+
+ステップ3：情報を確認 → **_Submit_** を選択
+
+ステップ4：**_Application Complete_** が表示されたら → **_Go to LINE Official Account Manager_** を選択
+
+### **2. Messaging APIを有効化**
+
+ステップ1：メイン画面にWelcomeが表示されます => **_Next_** を選択 => 続けて **_Home Screen_** を選択してホームページへ移動
+
+ステップ2：**_Settings_** を選択 → **_Messaging API_** を選択
+
+ステップ3：**_Enable Messaging API_** をクリック
+
+ステップ3：**_Account Name_** を入力 → **_Agree_** を選択
+
+ステップ4：必要な情報を入力 → **_OK_** を選択
+
+### **3. 接続情報を取得**
+
+ステップ1：**_LINE Developers Console_** にアクセス
+
+ステップ2：**_Provider_** 画面で接続チャネルを選択
+
+ステップ3：接続チャネル画面で **_Messaging API_** を選択
+
+ステップ3：下にスクロールして **_Issue_** を選択
+
+### **4. LINEをJinmiに接続**
+
+ステップ1：**_Jinmi Omnichannel_** にアクセス → **_Settings_** → **_Inboxes_** を選択
+
+ステップ2：**Add Inbox** を選択
+
+**ステップ3：** **_LINE_** を選択してチャネル情報を入力
+
+**_LINE_** の画面に戻り **→** 各項目をコピー：**_Channel ID、Channel Secret、Token_** を入力（LINE Channel ID、LINE Channel Secret、LINE Channel Token）
+
+ステップ3：**_Create LINE Channel_** を選択
+
+ステップ4：**_Agents_**（スタッフ）を追加 → **_Add Agents_** を選択
+
+ステップ5：Jinmiシステムから **_Webhook URL_** をコピー
+
+ステップ6：LINEに戻る → **_Webhook URL_** を貼り付け → **_Save_** を選択
+
+ステップ7：**_Settings_** で → **_Response settings_** を選択 → **_Chat、Webhook_** を有効化
+
+ステップ8：これでLINEの接続が完了しました。Omnichannelに戻り → **_More Settings_** を選択
+
+これでLINEとOmnichannelの接続が完了し、使用を開始できます。エージェントはLINEを通じてお客様とチャットできるようになりました。
+
+\\
