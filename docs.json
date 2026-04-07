@@ -152,8 +152,7 @@
                         "group": "Get Started",
                         "pages": [
                           "introduction",
-                          "getting-started/quickstart",
-                          "getting-started/pricing"
+                          "getting-started/quickstart"
                         ]
                       },
                       {
@@ -171,6 +170,15 @@
                         "group": "Omnichannel",
                         "pages": [
                           "omnichannel/overview",
+                          "omnichannel/integrate-fanpage",
+                          "omnichannel/integrate-website",
+                          "omnichannel/integrate-zalo-oa",
+                          "omnichannel/integrate-zalo-personal",
+                          "omnichannel/integrate-line",
+                          "omnichannel/integrate-whatsapp",
+                          "omnichannel/integrate-telegram",
+                          "omnichannel/integrate-instagram",
+                          "omnichannel/create-train-ai-chatbot",
                           "omnichannel/inbox",
                           "omnichannel/ai-chatbot",
                           "omnichannel/automations",
@@ -185,12 +193,7 @@
                           "platform/free-tools",
                           "platform/faq"
                         ]
-                      },
-                      {
-                        "group": "Untitled Group",
-                        "pages": []
-                      },
-                      "usage-guide"
+                      }
                     ]
                   },
                   {
@@ -232,17 +235,6 @@
                 "version": "v1.0",
                 "tabs": [
                   {
-                    "tab": "User Guide",
-                    "groups": [
-                      {
-                        "group": "Get Started",
-                        "pages": [
-                          "jinmi-ai-voice-agent/user-guide/get-started/introduction"
-                        ]
-                      }
-                    ]
-                  },
-                  {
                     "tab": "API Documentation",
                     "pages": [
                       "voice-agent-overview"
@@ -270,8 +262,7 @@
                         "group": "はじめに",
                         "pages": [
                           "introduction-ja",
-                          "getting-started/quickstart-ja",
-                          "getting-started/pricing-ja"
+                          "getting-started/quickstart-ja"
                         ]
                       },
                       {
@@ -289,6 +280,15 @@
                         "group": "オムニチャネル",
                         "pages": [
                           "omnichannel/overview-ja",
+                          "omnichannel/integrate-fanpage-ja",
+                          "omnichannel/integrate-website-ja",
+                          "omnichannel/integrate-zalo-oa-ja",
+                          "omnichannel/integrate-zalo-personal-ja",
+                          "omnichannel/integrate-line-ja",
+                          "omnichannel/integrate-whatsapp-ja",
+                          "omnichannel/integrate-telegram-ja",
+                          "omnichannel/integrate-instagram-ja",
+                          "omnichannel/create-train-ai-chatbot-ja",
                           "omnichannel/inbox-ja",
                           "omnichannel/ai-chatbot-ja",
                           "omnichannel/automations-ja",
@@ -303,12 +303,7 @@
                           "platform/free-tools-ja",
                           "platform/faq-ja"
                         ]
-                      },
-                      {
-                        "group": "無題のグループ",
-                        "pages": []
-                      },
-                      "usage-guide-ja"
+                      }
                     ]
                   },
                   {
@@ -349,17 +344,6 @@
               {
                 "version": "v1.0",
                 "tabs": [
-                  {
-                    "tab": "ご利用ガイド",
-                    "groups": [
-                      {
-                        "group": "はじめに",
-                        "pages": [
-                          "jinmi-ai-voice-agent/user-guide-ja/get-started/introduction-ja"
-                        ]
-                      }
-                    ]
-                  },
                   {
                     "tab": "APIドキュメント",
                     "pages": [
