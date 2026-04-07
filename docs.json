@@ -42,15 +42,22 @@
                         "group": "Bắt đầu",
                         "pages": [
                           "bat-dau/chao-mung-den-voi-jinmi-ai-copied-1",
-                          "bat-dau/bat-dau-nhanh-copied-1",
-                          "bat-dau/bang-gia-copied-1",
-                          "huong-dan-su-dung"
+                          "bat-dau/bat-dau-nhanh-copied-1"
                         ]
                       },
                       {
                         "group": "Quản lý đa kênh",
                         "pages": [
                           "quan-ly-da-kenh/tong-quan",
+                          "quan-ly-da-kenh/untitled-page",
+                          "quan-ly-da-kenh/cach-tich-hop",
+                          "quan-ly-da-kenh/cach-tich-hop-copied-1",
+                          "quan-ly-da-kenh/cach-tich-hop-copied-2",
+                          "quan-ly-da-kenh/cach-tich-hop-copied-3",
+                          "quan-ly-da-kenh/cach-tich-hop-copied-4",
+                          "quan-ly-da-kenh/cach-tich-hop-copied-5",
+                          "quan-ly-da-kenh/cach-tich-hop-copied-6",
+                          "quan-ly-da-kenh/cach-tich-hop-copied-7",
                           "quan-ly-da-kenh/inbox-da-kenh",
                           "quan-ly-da-kenh/ai-chatbot",
                           "quan-ly-da-kenh/tu-dong-hoa",
@@ -76,10 +83,6 @@
                           "platform/free-tools-copied-1",
                           "platform/faq-copied-1"
                         ]
-                      },
-                      {
-                        "group": "Untitled Group",
-                        "pages": []
                       }
                     ]
                   },
@@ -121,17 +124,6 @@
               {
                 "version": "v1.0",
                 "tabs": [
-                  {
-                    "tab": "Hướng dẫn sử dụng",
-                    "groups": [
-                      {
-                        "group": "Bắt đầu",
-                        "pages": [
-                          "jinmi-ai-voice-agent/huong-dan-su-dung/bat-dau/gioi-thieu"
-                        ]
-                      }
-                    ]
-                  },
                   {
                     "tab": "Tài liệu API",
                     "pages": [
